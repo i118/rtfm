@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <meta
+  content="text/html; charset=Windows-1251"
+  http-equiv="content-type">
+  <title></title>
+
+
+<script type="text/javascript">
+function ping(host, port, pong) {
+
+  var started = new Date().getTime();
+
+  var http = new XMLHttpRequest();
+
+  http.open("GET", "http://" + host + ":" + port, /*async*/true);
+  
+  try {
+    
+        http.send(null);
+  	alert("Error:" + http.status ); // пример вывода: 404: Not Found	
+    
+  } catch(exception) {
+    // this is expected
+  }
+
+}
+</script>
+
+
+<script type="text/javascript">
+
+function Pinger_ping(ip, callback) {
+
+  if(!this.inUse) {
+
+    this.inUse = true;
+    this.callback = callback
+    this.ip = ip;
+
+    var _that = this;
+
+    this.img = new Image();
+
+    this.img.onload = function() {_that.good();};
+    this.img.onerror = function() {_that.good();};
+
+    this.start = new Date().getTime();
+    this.img.src = "http://" + ip;
+    this.timer = setTimeout(function() { _that.bad();}, 1500);
+    alert(this.img.src);
+  }
+}
+
+</script>
+
+
+  </head>
+  <body>
+  
+<script type="text/javascript">Pinger_ping("10.75.38.33",null)</script>
+
+
+ </body>
+</html>

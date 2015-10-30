@@ -1,0 +1,19 @@
+﻿# Format Version: 4.1.1.0
+# Generated at: 29/09/2015 16:24:26
+# Function Name: Device List
+# Custom Property 1=Custom Property 1, Custom Property 2=Custom Property 2, Custom Property 3=Custom Property 3, Custom Property 4=Custom Property 4, Custom Property 5=Custom Property 5
+"Device Display Name","Address","Serial Number","MAC Address","System","Printer","Copier","Scanner","Fax","Group"
+"Samsung M332x 382x 402x Series(10.75.39.186)","10.75.39.186","ZDP2BJCF70000VD","30-CD-A7-2E-C5-06","Ready","Ready","","","","10.75.39"
+"Samsung ML-371x Series(10.75.39.187)","10.75.39.187","Z5LSBAGB902017T","00-15-99-90-30-7A","Ready","Paper Misfeed","","","","10.75.39"
+"Samsung M332x 382x 402x Series(10.75.39.188)","10.75.39.188","ZDP2BJCF70001SK","30-CD-A7-2E-C4-9D","Ready","Ready","","","","10.75.39"
+"Samsung M332x 382x 402x Series(10.75.39.185)","10.75.39.185","ZDP2BJCF70006PZ","30-CD-A7-30-5D-E2","Ready","Ready","","","","10.75.39"
+"Samsung M332x 382x 402x Series(10.75.39.190)","10.75.39.190","ZDP2BJCF70000QZ","30-CD-A7-2E-C5-09","Ready","Ready","","","","10.75.39"
+"Panasonic KX-MB2000(10.75.39.175)","10.75.39.175","","00-80-F0-19-95-95","Ready","Ready","","","","10.75.39"
+"Samsung ML-371x Series(10.75.39.165)","10.75.39.165","Z5LSBAGB902033N","00-15-99-90-2F-3B","Ready","Paper Misfeed","","","","10.75.39"
+"Samsung ML-375x Series(10.75.39.189)","10.75.39.189","Z78VBJBC70028MJ","00-15-99-A9-D7-63","Replace/Supply","Paper Misfeed","","","","10.75.39"
+"Samsung ML-375x Series(10.75.39.168)","10.75.39.168","Z78VBJBC7001DNZ","00-15-99-A9-9F-23","Ready","Paper Misfeed","","","","10.75.39"
+"Samsung ML-375x Series(10.75.39.184)","10.75.39.184","Z78VBJBC70009NL","00-15-99-A9-91-5F","Ready","Paper Misfeed","","","","10.75.39"
+"FS-1920(10.75.39.155)","10.75.39.155","ALB4529280","00-C0-EE-D6-D8-29","Ready","Alert","","","","10.75.39"
+"FS-1920(10.75.39.164)","10.75.39.164","ALB4527764","00-C0-EE-D6-D7-48","Ready","Alert","","","","10.75.39"
+"FS-1920(10.75.39.192)","10.75.39.192","ALB4633554","00-C0-EE-D5-79-67","Ready","Alert","","","","10.75.39"
+"FS-1920(10.75.39.163)","10.75.39.163","VLB4320682","00-C0-EE-D5-7A-00","Ready","Alert","","","","10.75.39"
